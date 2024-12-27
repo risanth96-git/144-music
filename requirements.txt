@@ -35,7 +35,6 @@ speedtest-cli
 unidecode
 urllib3
 wget
-git+https://github.com/rahulps1000/pyropatch.git@pyrotgfork
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
 yt-dlp
 bing_image_downloader

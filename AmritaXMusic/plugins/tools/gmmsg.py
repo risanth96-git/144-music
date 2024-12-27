@@ -15,7 +15,7 @@ def goodnight_command_handler(_, message):
     else:
         emoji = get_random_emoji()
         app.send_message(message.chat.id, emoji)
-        message.reply_text(f"**goodmorning, {sender}! Have a great day. {emoji}**")
+        await message.reply_text(f"Goodnight, {sender}! Sleep tight.")
 
 
 def get_random_sticker():

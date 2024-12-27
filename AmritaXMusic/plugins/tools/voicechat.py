@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrotgfork import Client, filters
 from pyrogram.types import Message
 from AmritaXMusic import app
 from pyrogram import *

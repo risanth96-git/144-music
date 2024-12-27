@@ -1,7 +1,7 @@
 import re
 from pyrogram import filters
 import random
-from SONALI import app
+from AmritaXMusic import app
 
 @app.on_message(filters.command(["gm", "goodmorning", "good morning"], prefixes=["/", "g", "G"]))
 async def goodmorning_command_handler(_, message):
